@@ -1,0 +1,6 @@
+.error-message>ul{
+	padding-left: 4%;
+}
+.error-message>ul>li{
+	float: left;
+}
