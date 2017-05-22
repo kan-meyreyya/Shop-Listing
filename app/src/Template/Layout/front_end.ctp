@@ -7,25 +7,27 @@
     <title><?php echo $this->fetch('title'); ?></title>
     <?php echo $this->fetch('meta'); ?>
     <?php
-        echo $this->Html->css(
-            [
-                'bootstrap.min.css',
-                'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
-                'front/style.css'
-            ]
-        );
+        echo $this->Html->css(array(
+            'bootstrap.min.css',
+            '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+            'front/style.css',
+        ));
     ?>
-    <?php echo $this->fetch('css'); ?>    
+    <?php echo $this->fetch('css'); ?>
 </head>
 <body>
     <div class="container-fluid" id="mainWrap">
-        <?php echo $this->element('template_header'); ?>
+        <?php echo $this->element('Front/menu'); ?>
         <?php echo $this->fetch('content'); ?>
     </div>
     <footer>
-        <?php echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'); ?>
-        <?php echo $this->Html->script('bootstrap.min.js'); ?>
-        <?php echo $this->fetch('script'); ?>        
+        <?php
+            echo $this->Html->script(array(
+                '//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js',
+                'bootstrap.min.js',
+            ));
+        ?>
+        <?php echo $this->fetch('script'); ?>
     </footer>
 </body>
 </html>

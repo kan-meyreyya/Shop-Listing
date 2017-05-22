@@ -43,6 +43,26 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+        $this->loadComponent('Csrf');
+        $this->loadComponent('Auth', array(
+            'authenticate' => array(
+                'Form' => array(
+                    'fields' => array(
+                        'email' => 'email',
+                        'password' => 'password',
+                    )
+                )
+            ),
+            'loginRedirect' => array(
+                'prefix' => false,
+                'controller' => 'users',
+                'action' => 'login',
+            ),
+            'logoutRedirect' => array(
+                'controller' => 'homes',
+                'action' => 'index',
+            )
+        ));
 
         /*
          * Enable the following components for recommended CakePHP security settings.
@@ -58,6 +78,19 @@ class AppController extends Controller
      * @param \Cake\Event\Event $event The beforeRender event.
      * @return \Cake\Network\Response|null|void
      */
+
+    public function isAuthorized($user = null) {
+        if (empty($this->request->params['admin'])) {
+            return true;
+        }
+
+        if (isset($this->request->params['admin'])) {
+            return (bool)($user['role'] === 'admin');
+        }
+
+        return false;
+    }
+
     public function beforeRender(Event $event)
     {
         if (!array_key_exists('_serialize', $this->viewVars) &&
