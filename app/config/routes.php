@@ -58,7 +58,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
-    $routes->connect('/homes/*', ['controller' => 'Homes', 'action' => 'index']);
+    $routes->connect('/homes', ['controller' => 'Homes', 'action' => 'index']);
 
     /**
      * Connect catchall routes for all controllers.

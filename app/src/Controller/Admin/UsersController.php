@@ -8,16 +8,6 @@ class UsersController extends AppController
 {
     public function initialize() {
         parent::initialize();
-        $this->Auth->allow(array(
-            'index',
-            'create',
-            'delete',
-            'edit',
-            'login',
-            'logout',
-            'forgotPassword',
-        ));
-        $this->Auth->authorize = 'Controller';
         $this->viewBuilder()->layout('back_end');
     }
 

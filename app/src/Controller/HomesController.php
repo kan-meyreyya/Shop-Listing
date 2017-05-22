@@ -8,10 +8,8 @@ class HomesController extends AppController
 {
     public function initialize() {
         parent::initialize();
-        $this->Auth->allow(array(
-            'index',
-        ));
-        $this->Auth->authorize = 'Controller';
+        $this->loadModel('User');
+        $this->Auth->allow('index');
         $this->viewBuilder()->layout('front_end');
     }
 
