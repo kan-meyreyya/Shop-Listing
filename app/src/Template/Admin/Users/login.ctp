@@ -18,7 +18,7 @@
         <div class="form-group has-feedback">
             <?php
                 echo $this->Form->input('username', array(
-                    'placeholder' => 'Username',
+                    'placeholder' => 'username',
                     'label' => false,
                     'class' => 'form-control',
                 ));
@@ -36,13 +36,6 @@
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
         <div class="row">
-            <div class="col-xs-8">
-                <?php
-                    echo $this->Form->checkbox('remember_me', array(
-                        'class' => 'icheck_minimal',
-                    ));
-                ?> Remember Me
-            </div>
             <div class="col-xs-4">
                 <?php
                     echo $this->Form->button('Login', array(

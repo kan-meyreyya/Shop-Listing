@@ -1,82 +1,59 @@
-2017-05-22 13:08:55 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::regiser() could not be found, or is not accessible.
+2017-05-23 08:34:16 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible.
 Exception Attributes: array (
   'controller' => 'UsersController',
-  'action' => 'regiser',
-  'prefix' => 'admin',
+  'action' => 'login',
+  'prefix' => '',
   'plugin' => false,
 )
-Request URL: /admin/users/regiser
+Request URL: /users/login
+Referer URL: http://localhost:8765/admin/users/login
 Stack Trace:
-#0 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
-#1 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
-#2 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#3 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#4 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#5 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#6 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#7 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#8 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#9 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#10 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#11 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#12 C:\Project CakePhp\app\webroot\index.php(37): Cake\Http\Server->run()
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
 #13 {main}
 
 
-2017-05-22 13:09:19 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::kfdjaslflassadf() could not be found, or is not accessible.
-Exception Attributes: array (
-  'controller' => 'UsersController',
-  'action' => 'kfdjaslflassadf',
-  'prefix' => 'admin',
-  'plugin' => false,
-)
-Request URL: /admin/users/kfdjaslflassadf
-Stack Trace:
-#0 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
-#1 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
-#2 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#3 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#4 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#5 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#6 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#7 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#8 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#9 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#10 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#11 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#12 C:\Project CakePhp\app\webroot\index.php(37): Cake\Http\Server->run()
-#13 {main}
-
-
-2017-05-22 13:10:54 Error: [Cake\View\Exception\MissingElementException] Element file "Element\admin_menu.ctp" is missing.
+2017-05-23 08:39:19 Error: [Cake\View\Exception\MissingElementException] Element file "Element\admin_menu.ctp" is missing.
 Exception Attributes: array (
   0 => 'Element\\admin_menu.ctp',
 )
 Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users/login
 Stack Trace:
-#0 C:\Project CakePhp\app\src\Template\Layout\back_end.ctp(83): Cake\View\View->element('admin_menu')
-#1 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\View\View.php(1011): include('C:\\Project Cake...')
-#2 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\View\View.php(972): Cake\View\View->_evaluate('C:\\Project Cake...', Array)
-#3 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\View\View.php(643): Cake\View\View->_render('C:\\Project Cake...')
-#4 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\View\View.php(601): Cake\View\View->renderLayout('', 'back_end')
-#5 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
-#6 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
-#7 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
-#8 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#9 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#10 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#11 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#12 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#13 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#14 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#15 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#16 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#17 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#18 C:\Project CakePhp\app\webroot\index.php(37): Cake\Http\Server->run()
+#0 E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp(83): Cake\View\View->element('admin_menu')
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(1011): include('E:\\CAKE PROJECT...')
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(972): Cake\View\View->_evaluate('E:\\CAKE PROJECT...', Array)
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(643): Cake\View\View->_render('E:\\CAKE PROJECT...')
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(601): Cake\View\View->renderLayout('', 'back_end')
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
 #19 {main}
 
 
-2017-05-22 13:10:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+2017-05-23 08:39:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
 Exception Attributes: array (
   'class' => 'Dist',
   'plugin' => false,
@@ -86,162 +63,782 @@ Exception Attributes: array (
 Request URL: /admin/dist/img/user2-160x160.jpg
 Referer URL: http://localhost:8765/admin/users
 Stack Trace:
-#0 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
-#1 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#2 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#3 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#4 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#5 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#6 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#7 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#8 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#9 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#10 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#11 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#12 C:\Project CakePhp\app\webroot\index.php(37): Cake\Http\Server->run()
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
 #13 {main}
 
 
-2017-05-22 15:59:38 Error: [ParseError] syntax error, unexpected '.', expecting ')' in C:\Project CakePhp\app\src\Controller\HomesController.php on line 14
-Request URL: /homes/register
-Stack Trace:
-#0 C:\Project CakePhp\app\vendor\composer\ClassLoader.php(301): Composer\Autoload\includeFile('C:\\Project Cake...')
-#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
-#2 [internal function]: spl_autoload_call('App\\Controller\\...')
-#3 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Core\App.php(152): class_exists('App\\Controller\\...')
-#4 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Core\App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Hom...', 'App')
-#5 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(68): Cake\Core\App::className('Homes', 'Controller', 'Controller')
-#6 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#7 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#8 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#9 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#10 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#11 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#12 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#13 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#14 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#15 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#16 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#17 C:\Project CakePhp\app\webroot\index.php(37): Cake\Http\Server->run()
-#18 {main}
-
-
-2017-05-22 16:02:37 Error: [Cake\View\Exception\MissingElementException] Element file "Element\Admin\register.ctp" is missing.
+2017-05-23 08:40:19 Error: [Cake\View\Exception\MissingElementException] Element file "Element\admin_menu.ctp" is missing.
 Exception Attributes: array (
-  0 => 'Element\\Admin\\register.ctp',
+  0 => 'Element\\admin_menu.ctp',
 )
-Request URL: /homes/register
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users/login
 Stack Trace:
-#0 C:\Project CakePhp\app\src\Template\Homes\register.ctp(1): Cake\View\View->element('Admin\\register')
-#1 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\View\View.php(1011): include('C:\\Project Cake...')
-#2 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\View\View.php(972): Cake\View\View->_evaluate('C:\\Project Cake...', Array)
-#3 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\View\View.php(596): Cake\View\View->_render('C:\\Project Cake...')
-#4 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
-#5 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
-#6 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomesController))
-#7 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#8 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#9 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#10 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#11 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#12 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#13 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#14 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#15 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#16 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#17 C:\Project CakePhp\app\webroot\index.php(37): Cake\Http\Server->run()
-#18 {main}
+#0 E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp(83): Cake\View\View->element('admin_menu')
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(1011): include('E:\\CAKE PROJECT...')
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(972): Cake\View\View->_evaluate('E:\\CAKE PROJECT...', Array)
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(643): Cake\View\View->_render('E:\\CAKE PROJECT...')
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(601): Cake\View\View->renderLayout('', 'back_end')
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
 
 
-2017-05-22 16:15:39 Error: Fatal Error (1): Class 'App\Conroller\AppController' not found in [C:\Project CakePhp\app\src\Controller\UsersController.php, line 7]
-Request URL: /users/register
-Trace:
-Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
-Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 104
-[main] - [internal], line ??
-
-
-
-2017-05-22 16:15:40 Error: [Cake\Error\FatalErrorException] Class 'App\Conroller\AppController' not found in C:\Project CakePhp\app\src\Controller\UsersController.php on line 7
-Request URL: /users/register
-Stack Trace:
-#0 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(104): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Conr...', 'C:\\Project Cake...', 7)
-#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
-#2 {main}
-
-
-2017-05-22 16:18:08 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::register() could not be found, or is not accessible.
+2017-05-23 08:40:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
 Exception Attributes: array (
-  'controller' => 'UsersController',
-  'action' => 'register',
-  'prefix' => 'admin',
+  'class' => 'Dist',
   'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
 )
-Request URL: /admin/users/register
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
 Stack Trace:
-#0 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
-#1 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
-#2 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#3 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#4 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#5 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#6 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#7 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#8 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#9 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#10 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#11 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#12 C:\Project CakePhp\app\webroot\index.php(37): Cake\Http\Server->run()
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
 #13 {main}
 
 
-2017-05-22 16:18:47 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::afasfasfasfsfsa() could not be found, or is not accessible.
+2017-05-23 08:40:22 Error: [Cake\View\Exception\MissingElementException] Element file "Element\admin_menu.ctp" is missing.
 Exception Attributes: array (
-  'controller' => 'UsersController',
-  'action' => 'afasfasfasfsfsa',
-  'prefix' => 'admin',
-  'plugin' => false,
+  0 => 'Element\\admin_menu.ctp',
 )
-Request URL: /admin/users/afasfasfasfsfsa
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users/login
 Stack Trace:
-#0 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
-#1 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
-#2 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#3 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#4 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#5 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#6 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#7 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#8 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#9 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#10 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#11 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#12 C:\Project CakePhp\app\webroot\index.php(37): Cake\Http\Server->run()
+#0 E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp(83): Cake\View\View->element('admin_menu')
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(1011): include('E:\\CAKE PROJECT...')
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(972): Cake\View\View->_evaluate('E:\\CAKE PROJECT...', Array)
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(643): Cake\View\View->_render('E:\\CAKE PROJECT...')
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(601): Cake\View\View->renderLayout('', 'back_end')
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-23 08:40:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
 #13 {main}
 
 
-2017-05-22 16:28:28 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::afasfasfasfsfsa() could not be found, or is not accessible.
+2017-05-23 08:41:03 Error: [Cake\View\Exception\MissingElementException] Element file "Element\admin_menu.ctp" is missing.
 Exception Attributes: array (
-  'controller' => 'UsersController',
-  'action' => 'afasfasfasfsfsa',
-  'prefix' => 'admin',
-  'plugin' => false,
+  0 => 'Element\\admin_menu.ctp',
 )
-Request URL: /admin/users/afasfasfasfsfsa
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users/login
 Stack Trace:
-#0 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
-#1 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
-#2 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#3 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#4 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#5 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#6 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#7 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#8 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#9 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
-#10 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#11 C:\Project CakePhp\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
-#12 C:\Project CakePhp\app\webroot\index.php(37): Cake\Http\Server->run()
+#0 E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp(83): Cake\View\View->element('admin_menu')
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(1011): include('E:\\CAKE PROJECT...')
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(972): Cake\View\View->_evaluate('E:\\CAKE PROJECT...', Array)
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(643): Cake\View\View->_render('E:\\CAKE PROJECT...')
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\View.php(601): Cake\View\View->renderLayout('', 'back_end')
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-23 08:41:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 08:42:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 08:42:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 08:42:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Homes could not be found.
+Exception Attributes: array (
+  'class' => 'Homes',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/homes
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 08:43:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:44:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:44:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Homes could not be found.
+Exception Attributes: array (
+  'class' => 'Homes',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/homes
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:45:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:48:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:51:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:51:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:53:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:54:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:56:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 09:59:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 10:05:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 10:06:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 10:06:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 10:09:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 10:10:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 10:11:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 10:11:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 10:12:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-23 10:12:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => false,
+  'prefix' => 'admin',
+  '_ext' => false,
+)
+Request URL: /admin/dist/img/user2-160x160.jpg
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\Shop-Listing\app\webroot\index.php(37): Cake\Http\Server->run()
 #13 {main}
 
 

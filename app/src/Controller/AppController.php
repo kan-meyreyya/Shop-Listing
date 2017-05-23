@@ -48,7 +48,7 @@ class AppController extends Controller
             'authenticate' => array(
                 'Form' => array(
                     'fields' => array(
-                        'email' => 'email',
+                        'username' => 'username',
                         'password' => 'password',
                     )
                 )
@@ -85,7 +85,7 @@ class AppController extends Controller
         }
 
         if (isset($this->request->params['admin'])) {
-            return (bool)($user['role'] === 'admin');
+            return (bool)($user['role'] === 'admin' || $user['role'] === 'user');
         }
 
         return false;

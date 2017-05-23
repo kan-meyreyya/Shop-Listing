@@ -220,3 +220,6 @@ Type::build('timestamp')
 if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
+
+define('ROLE_ADMIN', 'admin');
+define('ROLE_USER', 'user');
