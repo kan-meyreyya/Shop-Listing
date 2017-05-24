@@ -22,11 +22,6 @@
         <?php echo $this->fetch('css') ?>
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
-        <?php
-            $session = $this->request->session();
-            $AUTH_ROLE = $session->read('Auth.User.role');
-            $AUTH_USERNAME = $session->read('Auth.User.username');
-        ?>
         <div class="wrapper">
             <header class="main-header">
                 <a href="index2.html" class="logo">
@@ -41,7 +36,7 @@
                         <ul class="nav navbar-nav">
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <span class="hidden-xs"><?php echo $AUTH_USERNAME; ?></span>
+                                    <span class="hidden-xs"><?php echo $this->request->session()->read('Auth.User.username'); ?></span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="user-header">

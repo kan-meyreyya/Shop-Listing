@@ -1,9 +1,9 @@
-2017-05-23 08:42:29 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 101]
+2017-05-24 00:59:39 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users/login
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 101
+include - APP/Template\Layout\back_end.ctp, line 103
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -25,116 +25,1242 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 08:42:38 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 101]
-Request URL: /admin/users
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 101
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 08:43:35 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 101]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2Flogout
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 101
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 09:44:05 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 101]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 101
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 09:45:21 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 101]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 101
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 09:48:16 Notice: Deprecated (16384): SessionHelper has been deprecated. Use request->session() instead. in [E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\Helper\SessionHelper.php, line 39]
+2017-05-24 01:07:39 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:09:31 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:10:14 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:10:17 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:10:23 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:10:32 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:12:49 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:12:55 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:13:11 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:13:33 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:13:35 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:14:07 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:14:57 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:15:00 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:15:06 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:22:07 Notice: Notice (8): Undefined variable: active in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Element\Admin\admin_menu.ctp, line 100]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Admin\admin_menu.ctp, line 100
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1358
+Cake\View\View::element() - CORE\src\View\View.php, line 499
+include - APP/Template\Layout\back_end.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:22:07 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:23:18 Notice: Notice (8): Undefined variable: active in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Element\Admin\admin_menu.ctp, line 101]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Admin\admin_menu.ctp, line 101
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1358
+Cake\View\View::element() - CORE\src\View\View.php, line 499
+include - APP/Template\Layout\back_end.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:23:18 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:23:50 Notice: Notice (8): Undefined variable: active in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Element\Admin\admin_menu.ctp, line 99]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Admin\admin_menu.ctp, line 99
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1358
+Cake\View\View::element() - CORE\src\View\View.php, line 499
+include - APP/Template\Layout\back_end.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:23:50 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:24:57 Notice: Notice (8): Undefined variable: active in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Element\Admin\admin_menu.ctp, line 99]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Admin\admin_menu.ctp, line 99
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1358
+Cake\View\View::element() - CORE\src\View\View.php, line 499
+include - APP/Template\Layout\back_end.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:24:57 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:25:39 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:25:45 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:27:17 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 01:27:22 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:30:46 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:31:36 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:37:54 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:38:48 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:38:50 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:38:53 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:38:55 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:46:29 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:46:36 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:46:57 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:49:24 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:52:02 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:53:06 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:55:19 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:55:35 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:55:56 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:56:49 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 03:58:52 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 103
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:21:06 Notice: Deprecated (16384): SessionHelper has been deprecated. Use request->session() instead. in [E:\CAKE PROJECT\Shop-Listing\app\vendor\cakephp\cakephp\src\View\Helper\SessionHelper.php, line 39]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
 Cake\View\Helper\SessionHelper::__construct() - CORE\src\View\Helper\SessionHelper.php, line 39
@@ -142,7 +1268,7 @@ Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 145
 Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 93
 Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
 Cake\View\View::__get() - CORE\src\View\View.php, line 904
-include - APP/Template\Layout\back_end.ctp, line 26
+include - APP/Template\Layout\back_end.ctp, line 39
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -164,228 +1290,12 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 09:48:16 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 101]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 101
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 09:51:33 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 101]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 101
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 09:51:52 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 101]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 101
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 09:53:49 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 102]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 102
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 09:54:30 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 102]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 102
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 09:56:48 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 09:59:00 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 10:05:28 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
-Request URL: /admin/users
-Referer URL: http://localhost:8765/admin/users/login
-Trace:
-Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
-Cake\View\View::render() - CORE\src\View\View.php, line 601
-Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
-Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
-Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
-Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
-Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
-Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
-Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
-[main] - ROOT\webroot\index.php, line 37
-
-
-
-2017-05-23 10:06:03 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+2017-05-24 04:21:06 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -407,12 +1317,12 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 10:06:07 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+2017-05-24 04:22:18 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -434,17 +1344,12 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 10:09:01 Notice: Notice (8): Undefined variable: AUTH_ROLE in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Element\Admin\admin_menu.ctp, line 1]
+2017-05-24 04:24:24 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Element\Admin\admin_menu.ctp, line 1
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1358
-Cake\View\View::element() - CORE\src\View\View.php, line 499
-include - APP/Template\Layout\back_end.ctp, line 83
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -466,12 +1371,12 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 10:09:01 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+2017-05-24 04:38:49 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -493,12 +1398,12 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 10:10:06 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+2017-05-24 04:39:22 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -520,17 +1425,12 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 10:11:09 Notice: Notice (8): Undefined variable: ROLE_USER in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Element\Admin\admin_menu.ctp, line 4]
+2017-05-24 04:42:11 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Element\Admin\admin_menu.ctp, line 4
-Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
-Cake\View\View::_render() - CORE\src\View\View.php, line 972
-Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1358
-Cake\View\View::element() - CORE\src\View\View.php, line 499
-include - APP/Template\Layout\back_end.ctp, line 83
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -552,12 +1452,12 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 10:11:09 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+2017-05-24 04:42:20 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -579,12 +1479,12 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 10:11:39 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+2017-05-24 04:43:22 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -606,12 +1506,12 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 10:12:39 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+2017-05-24 04:43:27 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
@@ -633,12 +1533,552 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
 
 
 
-2017-05-23 10:12:48 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 103]
+2017-05-24 04:45:48 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
 Request URL: /admin/users
 Referer URL: http://localhost:8765/admin/users
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
-include - APP/Template\Layout\back_end.ctp, line 103
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:46:29 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:46:47 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:48:32 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:49:23 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:51:06 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:52:05 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:52:53 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:52:56 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users/create
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:53:01 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:54:55 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:57:11 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:57:21 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 04:58:27 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 05:03:29 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 05:04:56 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 06:13:34 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2Fcreate
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 06:14:15 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 06:14:25 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/users/create
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 06:14:27 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
+Cake\View\View::render() - CORE\src\View\View.php, line 601
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-24 06:14:31 Notice: Notice (8): Use of undefined constant BASE_URL - assumed 'BASE_URL' in [E:\CAKE PROJECT\Shop-Listing\app\src\Template\Layout\back_end.ctp, line 98]
+Request URL: /admin/users/create
+Referer URL: http://localhost:8765/admin/users/create
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\back_end.ctp, line 98
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
 Cake\View\View::_render() - CORE\src\View\View.php, line 972
 Cake\View\View::renderLayout() - CORE\src\View\View.php, line 643
