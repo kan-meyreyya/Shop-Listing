@@ -14,12 +14,39 @@ class UsersController extends AppController
 
     public function index()
     {
-        
+        $condition = [];
+        if ($this->request->query('keyword')) {
+            $keyword = $this->request->query('keyword');
+            $condition[] = [
+                'OR' => [
+                    'username LIKE' => '%'.$keyword.'%',
+                    'role LIKE' => '%'.$keyword.'%',
+                ]
+            ];
+        }
+
+        $this->paginate = [
+            'conditions' => $condition,
+            'limit' => 10,
+            'order' => [
+                'User.username' => 'asc'
+            ]
+        ];
+        $this->set('user', $this->paginate($this->Users));
     }
 
-    public function create()
+    public function add()
     {
-        
+        $user = $this->Users->newEntity();
+        if ($this->request->is('post')) {
+            $user = $this->Users->patchEntity($user, $this->request->getData());
+            if ($this->Users->save($user)) {
+                $this->Flash->success(__('The user has been saved.'));
+                return $this->redirect(['action' => 'add']);
+            }
+            $this->Flash->error(__('Unable to add the user.'));
+        }
+        $this->set('user', $user);
     }
 
     public function edit($id = null)

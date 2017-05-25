@@ -19,7 +19,7 @@
                 <div class="box-header">
                     <div class="box-title">
                         <?php
-                            echo $this->Html->link('<i class="fa fa-users"></i> Add User', 'admin/users/create', array(
+                            echo $this->Html->link('<i class="fa fa-users"></i> Add User', 'admin/users/add', array(
                                 'class' => 'btn btn-default',
                                 'escape' => false,
                             ));

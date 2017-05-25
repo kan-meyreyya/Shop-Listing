@@ -3,7 +3,12 @@
     <div class="row">
         <div class="col-md-6">
             <div class="box box-primary">
-                <?php echo $this->form->create('user', array('role' => 'form')); ?>
+                <?php
+                    echo $this->Form->create(isset($user) ? $user : '', array(
+                        'role' => 'form',
+                        'autocomplete' => 'off',
+                    ));
+                ?>
                 <div class="box-body">
                     <div class="form-group">
                         <label>Username</label>
@@ -12,6 +17,9 @@
                                 'placeholder' => 'Username',
                                 'class' => 'form-control',
                                 'label' => false,
+                                'templates' => array(
+                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
+                                )
                             ));
                         ?>
                     </div>
@@ -22,16 +30,23 @@
                                 'placeholder' => 'Email',
                                 'class' => 'form-control',
                                 'label' => false,
+                                'templates' => array(
+                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
+                                )
                             ));
                         ?>
                     </div>
                     <div class="form-group">
                         <label>Phone</label>
                          <?php
-                            echo $this->Form->input('tel', array(
+                            echo $this->Form->input('phone', array(
                                 'placeholder' => 'Phone',
+                                'type' => 'tel',
                                 'class' => 'form-control',
                                 'label' => false,
+                                'templates' => array(
+                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
+                                )
                             ));
                         ?>
                     </div>
@@ -42,16 +57,22 @@
                                 'placeholder' => 'Password',
                                 'class' => 'form-control',
                                 'label' => false,
+                                'templates' => array(
+                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
+                                )
                             ));
                         ?>
                     </div>
                     <div class="form-group">
-                        <label>Password</label>
+                        <label>Confirm Password</label>
                          <?php
                             echo $this->Form->input('confirm_pwd', array(
                                 'placeholder' => 'Confirm Password',
                                 'class' => 'form-control',
                                 'label' => false,
+                                'templates' => array(
+                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
+                                )
                             ));
                         ?>
                     </div>
