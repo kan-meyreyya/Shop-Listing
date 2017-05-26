@@ -82,11 +82,11 @@ CREATE TABLE `users` (
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
 
 /*Data for the table `users` */
 
-insert  into `users`(`id`,`username`,`password`,`email`,`phone`,`role`,`is_deleted`,`created`,`modified`) values (11,'test','$2y$10$hIsxXe4ak/EfgOebGe0KRO4jydkR9Ug1x7LUzVzRMBRSU0YOl77Dy','example@gmail.com','010804999','user',0,'2017-05-24 03:30:27','2017-05-24 03:30:27');
+insert  into `users`(`id`,`username`,`password`,`email`,`phone`,`role`,`is_deleted`,`created`,`modified`) values (11,'test','$2y$10$hIsxXe4ak/EfgOebGe0KRO4jydkR9Ug1x7LUzVzRMBRSU0YOl77Dy','example@gmail.com','010804999','user',0,'2017-05-24 03:30:27','2017-05-24 03:30:27'),(32,'meyreyya','$2y$10$.H/Q6pJOEPpqoFYwYazokuUJV6igq3njEmyCurh0GWBzCgnTHuqSW','kan.meyreyya@gmail.com','010804999','admin',0,'2017-05-26 06:53:25','2017-05-26 06:53:25');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

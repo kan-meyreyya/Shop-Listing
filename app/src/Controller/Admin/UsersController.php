@@ -4,11 +4,15 @@ namespace App\Controller\Admin;
 
 use App\Controller\AppController;
 use Cake\Network\Exception\NotFoundException;
+use Cake\ORM\TableRegistry;
 
 class UsersController extends AppController
 {
+    protected $table;
+
     public function initialize() {
         parent::initialize();
+        $this->table = TableRegistry::get('Users');
         $this->viewBuilder()->layout('back_end');
     }
 
@@ -17,21 +21,21 @@ class UsersController extends AppController
         $condition = [];
         if ($this->request->query('keyword')) {
             $keyword = $this->request->query('keyword');
-            $condition[] = [
-                'OR' => [
-                    'username LIKE' => '%'.$keyword.'%',
-                    'role LIKE' => '%'.$keyword.'%',
-                ]
-            ];
+            $condition[] = array(
+                'or' => array(
+                    'User.username LIKE' => '%'.$keyword.'%',
+                    'User.role LIKE' => '%'.$keyword.'%',
+                )
+            );
         }
 
-        $this->paginate = [
+        $this->paginate = array(
             'conditions' => $condition,
-            'limit' => 10,
-            'order' => [
-                'User.username' => 'asc'
-            ]
-        ];
+                'limit' => 10,
+                'order' => array(
+                    'User.username' => 'asc'
+                )
+        );
         $this->set('user', $this->paginate($this->Users));
     }
 
@@ -39,12 +43,21 @@ class UsersController extends AppController
     {
         $user = $this->Users->newEntity();
         if ($this->request->is('post')) {
-            $user = $this->Users->patchEntity($user, $this->request->getData());
-            if ($this->Users->save($user)) {
-                $this->Flash->success(__('The user has been saved.'));
-                return $this->redirect(['action' => 'add']);
+            $user = $this->Users->patchEntity($user, $this->request->getData(), array(
+                'validate' => 'create',
+            ));
+            $user->role = 'admin';
+            $result = $this->table->exists(array('email' => $user->email));
+            if (!$result) {
+                if ($this->Users->save($user)) {
+                    $this->Flash->success('The user has been saved.');
+                    return $this->redirect(array('action' => 'index'));
+                } else {
+                    $this->Flash->error('Unable to add the user.');
+                }
+            } else {
+                $this->Flash->error('You are have been already create this user!');
             }
-            $this->Flash->error(__('Unable to add the user.'));
         }
         $this->set('user', $user);
     }

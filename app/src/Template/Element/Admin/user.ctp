@@ -1,7 +1,14 @@
 
+<?php
+    $templates = array(
+        'inputContainer' => '{{content}}',
+        'inputContainerError' => '<div class="has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
+    );
+?>
 <section class="content">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
+            <?php echo $this->Flash->render(); ?>
             <div class="box box-primary">
                 <?php
                     echo $this->Form->create(isset($user) ? $user : '', array(
@@ -9,7 +16,7 @@
                         'autocomplete' => 'off',
                     ));
                 ?>
-                <div class="box-body">
+                <div class="box-body col-md-6">
                     <div class="form-group">
                         <label>Username</label>
                         <?php
@@ -17,9 +24,7 @@
                                 'placeholder' => 'Username',
                                 'class' => 'form-control',
                                 'label' => false,
-                                'templates' => array(
-                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
-                                )
+                                'templates' => $templates,
                             ));
                         ?>
                     </div>
@@ -30,9 +35,7 @@
                                 'placeholder' => 'Email',
                                 'class' => 'form-control',
                                 'label' => false,
-                                'templates' => array(
-                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
-                                )
+                                'templates' => $templates,
                             ));
                         ?>
                     </div>
@@ -44,9 +47,7 @@
                                 'type' => 'tel',
                                 'class' => 'form-control',
                                 'label' => false,
-                                'templates' => array(
-                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
-                                )
+                                'templates' => $templates,
                             ));
                         ?>
                     </div>
@@ -57,9 +58,7 @@
                                 'placeholder' => 'Password',
                                 'class' => 'form-control',
                                 'label' => false,
-                                'templates' => array(
-                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
-                                )
+                                'templates' => $templates,
                             ));
                         ?>
                     </div>
@@ -70,13 +69,12 @@
                                 'placeholder' => 'Confirm Password',
                                 'class' => 'form-control',
                                 'label' => false,
-                                'templates' => array(
-                                    'inputContainerError' => '<div class="col-sm-10 has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
-                                )
+                                'templates' => $templates,
                             ));
                         ?>
                     </div>
                 </div>
+                <div class="clearfix"></div>
                 <div class="box-footer">
                     <?php
                         echo $this->Form->submit('Save', array(

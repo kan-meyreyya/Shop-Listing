@@ -12,9 +12,17 @@ class UsersTable extends Table
         $this->table('users');
         $this->primaryKey('id');
         $this->addBehavior('Timestamp');
+
+        $this->hasOne('Products')
+            ->setName('Products')
+            ->setDependent(true);
+
+        $this->hasOne('Categories')
+            ->setName('Categories')
+            ->setDependent(true);
     }
 
-    public function validationCreate(Validator $validator) {
+    public function validationCreate (Validator $validator) {
         $validator
             ->requirePresence('username')
             ->notEmpty('username', 'Please input username!');

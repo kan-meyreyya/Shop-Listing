@@ -1,4 +1,5 @@
 
+<?php //echo '<pre>'.print_r($user, true).'</pre>'; ?>
 <section class="content-header">
     <h1>User List</h1>
     <ol class="breadcrumb">
@@ -46,7 +47,13 @@
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tbody></tbody>
+                        <tbody>
+                            <?php if ($user) : foreach ($user as $item) : ;?>
+                                <tr>
+                                    <td><?php echo $item['User']['username']; ?></td>
+                                </tr>
+                            <?php endforeach; endif; ?>
+                        </tbody>
                     </tbody></table>
                 </div>
                 <div class="box-footer clearfix">
