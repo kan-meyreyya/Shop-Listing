@@ -4,17 +4,24 @@ namespace App\Controller\Admin;
 
 use App\Controller\AppController;
 use Cake\Network\Exception\NotFoundException;
+use Cake\ORM\TableRegistry;
 
 class UsersController extends AppController
 {
+<<<<<<< HEAD
+=======
+    protected $table;
+>>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
 
     public function initialize() {
         parent::initialize();
+        $this->table = TableRegistry::get('Users');
         $this->viewBuilder()->layout('back_end');
     }
 
     public function index()
     {
+<<<<<<< HEAD
         $options = array();
         if ($this->request->query('keyword')) {
             $keyword = $this->request->query('keyword');
@@ -38,6 +45,24 @@ class UsersController extends AppController
                 'limit' => 10,
                 'order' => array(
                     'username' => 'asc'
+=======
+        $condition = [];
+        if ($this->request->query('keyword')) {
+            $keyword = $this->request->query('keyword');
+            $condition[] = array(
+                'or' => array(
+                    'User.username LIKE' => '%'.$keyword.'%',
+                    'User.role LIKE' => '%'.$keyword.'%',
+                )
+            );
+        }
+
+        $this->paginate = array(
+            'conditions' => $condition,
+                'limit' => 10,
+                'order' => array(
+                    'User.username' => 'asc'
+>>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
                 )
         );
         $this->set('user', $this->paginate($this->Users));
@@ -50,8 +75,13 @@ class UsersController extends AppController
             $user = $this->Users->patchEntity($user, $this->request->getData(), array(
                 'validate' => 'create',
             ));
+<<<<<<< HEAD
             $user->role = ROLE_ADMIN;
             $result = $this->Users->exists(array('email' => $user->email));
+=======
+            $user->role = 'admin';
+            $result = $this->table->exists(array('email' => $user->email));
+>>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
             if (!$result) {
                 if ($this->Users->save($user)) {
                     $this->Flash->success('The user has been saved.');
@@ -59,8 +89,14 @@ class UsersController extends AppController
                 } else {
                     $this->Flash->error('Unable to add the user.');
                 }
+<<<<<<< HEAD
             }
             $this->Flash->error('The user is exist!');
+=======
+            } else {
+                $this->Flash->error('You are have been already create this user!');
+            }
+>>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
         }
         $this->set('user', $user);
     }

@@ -5,6 +5,7 @@
         'inputContainerError' => '<div class="has-error">{{content}}<label class="control-label" for="inputError">{{error}}</label></div>',
     );
 ?>
+<<<<<<< HEAD
 <section class="content-header">
     <h1><?php echo ($this->request->action === 'add') ? 'Add New User' : 'Edit User'; ?></h1>
     <ol class="breadcrumb">
@@ -19,6 +20,8 @@
         <li class="active"><?php echo ($this->request->action === 'add') ? 'Create' : 'Edit'; ?></li>
     </ol>
 </section>
+=======
+>>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
 <section class="content">
     <div class="row">
         <div class="col-md-12">
@@ -82,10 +85,15 @@
                             echo $this->Form->input('confirm_pwd', array(
                                 'placeholder' => 'Confirm Password',
                                 'class' => 'form-control',
+<<<<<<< HEAD
                                 'type' => 'password',
                                 'label' => false,
                                 'templates' => $templates,
                                 'value' => $user ? h($user->password) : '',
+=======
+                                'label' => false,
+                                'templates' => $templates,
+>>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
                             ));
                         ?>
                     </div>

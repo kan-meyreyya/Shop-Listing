@@ -25,11 +25,16 @@ class UsersController extends AppController
             ));
             $user->role = ROLE_USER;
             $user->is_deleted = 0;
+<<<<<<< HEAD
             $result = $this->Users->exists($user->email);
             if (!$result) {
                 if ($this->Users->save($user)) {
                     return $this->redirect('/admin/users/login');
                 }
+=======
+            if ($this->table->save($user)) {
+                return $this->redirect('/admin/users/login');
+>>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
             }
             
         }
