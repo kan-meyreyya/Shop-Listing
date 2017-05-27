@@ -7,7 +7,7 @@
         <title><?php echo $this->fetch('title') ?></title>
         <?php echo $this->Html->meta('icon'); ?>
         <?php
-            echo $this->Html->css([
+            echo $this->Html->css(array(
                 'bootstrap.min.css',
                 '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css',
                 '//cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css',
@@ -15,18 +15,24 @@
                 'skins/_all-skins.min.css',
                 'minimal/minimal.css',
                 'dashboard.css',
-            ]);
+            ));
+        ?>
+
+        <?php
+            echo $this->Html->script(array(
+                '//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js',
+                'bootstrap.min.js',
+                'icheck.min.js',
+                'app.js',
+                'dashboard.js',
+            ));
         ?>
 
         <?php echo $this->fetch('meta') ?>
         <?php echo $this->fetch('css') ?>
+        <?php echo $this->fetch('script') ?>
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
-        <?php
-            $session = $this->request->session();
-            $AUTH_ROLE = $session->read('Auth.User.role');
-            $AUTH_USERNAME = $session->read('Auth.User.username');
-        ?>
         <div class="wrapper">
             <header class="main-header">
                 <a href="index2.html" class="logo">
@@ -41,7 +47,7 @@
                         <ul class="nav navbar-nav">
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <span class="hidden-xs"><?php echo $AUTH_USERNAME; ?></span>
+                                    <span class="hidden-xs"><?php echo $this->request->session()->read('Auth.User.username'); ?></span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="user-header">
@@ -89,20 +95,6 @@
                 </div>
                 <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
                 reserved.
-
-                <?php
-                echo $this->Html->script([
-                    '//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js',
-                    'bootstrap.min.js',
-                    'icheck.min.js',
-                    'app.js',
-                    'dashboard.js',
-                ]);
-                ?>
-                <script>
-                    var BASE_URL = '<?php echo BASE_URL; ?>';
-                </script>
-<?php echo $this->fetch('script') ?>
 
                 <script>
                     $(document).ready(function () {

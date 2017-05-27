@@ -221,5 +221,7 @@ if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
+// CONSTANT VAIRABLE FOR USING IN PROJECT
+
 define('ROLE_ADMIN', 'admin');
 define('ROLE_USER', 'user');

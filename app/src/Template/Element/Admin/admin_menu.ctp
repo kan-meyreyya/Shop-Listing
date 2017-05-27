@@ -1,23 +1,24 @@
 <?php
     $session = $this->request->session();
     $AUTH_ROLE = $session->read('Auth.User.role');
+    $controller = array(
+        'Users',
+    );
+    $active = in_array($this->request->controller, $controller) ? 'active' : '';
 ?>
 <aside class="main-sidebar">
     <section class="sidebar">
         <ul class="sidebar-menu">
-            <li class="active treeview">
+            <li class="treeview">
                 <?php
                     echo $this->Html->link(
-                        $this->Html->tag('i', '', array('class' => 'fa fa-dashboard')) . $this->Html->tag('span', 'Dashboard'), array(
-                            'controller' => 'Homes',
-                            'action' => 'index'
-                        ),array(
-                            'escape' => false
-                        )
+                        $this->Html->tag('i', '', array('class' => 'fa fa-dashboard')) . $this->Html->tag('span', 'Dashboard'),
+                            'homes', array('escape' => false)
                     );
                 ?>
             </li>
-            <li class="treeview">
+            <?php //if ($AUTH_ROLE === 'admin') : ?>
+            <li class="treeview <?php echo $active; ?>">
                 <?php
                     echo $this->Html->link(
                         $this->Html->tag('i', '', array('class' => 'fa fa-users')) . $this->Html->tag('span', 'Users'), array(
@@ -94,6 +95,20 @@
                     <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
                 </ul>
             </li>
+            <?php //else : ?>
+            <li class="treeview <?php echo $active; ?>">
+                <?php
+                    echo $this->Html->link(
+                        $this->Html->tag('i', '', array('class' => 'fa fa-users')) . $this->Html->tag('span', 'Users'), array(
+                            'controller' => 'users',
+                            'action' => 'index'
+                        ), array(
+                            'escape' => false
+                        )
+                    );
+                ?>
+            </li>
+            <?php //endif; ?>
         </ul>
     </section>
 </aside>

@@ -36,6 +36,11 @@
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
         <div class="row">
+            <div class="col-xs-8">
+                <?php
+                    echo $this->Html->link('forgot password', 'admin/users/forgotPassword');
+                ?>
+            </div>
             <div class="col-xs-4">
                 <?php
                     echo $this->Form->button('Login', array(
@@ -45,8 +50,5 @@
             </div>
         </div>
         <?php echo $this->Form->end(); ?>
-        <?php
-            echo $this->Html->link('forgot password', 'admin/users/forgotPassword');
-        ?>
     </div>
 </div>
