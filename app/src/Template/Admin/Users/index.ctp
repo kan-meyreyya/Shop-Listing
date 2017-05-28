@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 <style type="text/css">
     .box {
@@ -11,10 +10,6 @@
     }
 </style>
 
-=======
-
-<?php //echo '<pre>'.print_r($user, true).'</pre>'; ?>
->>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
 <section class="content-header">
     <h1>User List</h1>
     <ol class="breadcrumb">
@@ -43,7 +38,6 @@
                     </div>
                     <div class="box-tools">
                         <div class="input-group input-group-sm" style="width: 230px;">
-<<<<<<< HEAD
                             <?php
                                 echo $this->Form->create('user', array(
                                     'role' => 'form',
@@ -63,12 +57,6 @@
                                 ));
                             ?>
                             <?php echo $this->Form->end(); ?>
-=======
-                            <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
-                            <div class="input-group-btn">
-                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                            </div>
->>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
                         </div>
                     </div>
                 </div>
@@ -76,26 +64,17 @@
                     <table class="table table-hover">
                         <thead>
                             <tr>
-<<<<<<< HEAD
                                 <th><?php echo $this->Paginator->sort('username'); ?></th>
                                 <th><?php echo $this->Paginator->sort('email'); ?></th>
                                 <th><?php echo $this->Paginator->sort('phone'); ?></th>
                                 <th><?php echo $this->Paginator->sort('role'); ?></th>
                                 <th><?php echo $this->Paginator->sort('created'); ?></th>
-=======
-                                <th>Username</th>
-                                <th>Email</th>
-                                <th>Phone</th>
-                                <th>Role</th>
-                                <th>Create Date</th>
->>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php if ($user) : foreach ($user as $item) : ;?>
                                 <tr>
-<<<<<<< HEAD
                                     <td><?php echo h($item->username) ?></td>
                                     <td><?php echo h($item->email); ?></td>
                                     <td><?php echo h($item->phone); ?></td>
@@ -117,9 +96,6 @@
                                             ));
                                         ?>
                                     </td>
-=======
-                                    <td><?php echo $item['User']['username']; ?></td>
->>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
                                 </tr>
                             <?php endforeach; endif; ?>
                         </tbody>
@@ -127,26 +103,17 @@
                 </div>
                 <div class="box-footer clearfix">
                     <ul class="pagination pagination-sm no-margin pull-right">
-<<<<<<< HEAD
                         <?php echo $this->Paginator->first('<< ' . __('first')) ?>
                         <?php echo $this->Paginator->prev('< ' . __('previous')) ?>
                         <?php echo $this->Paginator->numbers() ?>
                         <?php echo $this->Paginator->next(__('next') . ' >') ?>
                         <?php echo $this->Paginator->last(__('last') . ' >>') ?>
-=======
-                        <li><a href="#">«</a></li>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">»</a></li>
->>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<<<<<<< HEAD
 <div class="modal fade" id="modal_delete" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
@@ -206,5 +173,3 @@
         });
     });
 </script>
-=======
->>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54

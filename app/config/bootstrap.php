@@ -225,3 +225,11 @@ if (Configure::read('debug')) {
 
 define('ROLE_ADMIN', 'admin');
 define('ROLE_USER', 'user');
+
+// MESSAGE
+
+define('USER_EXIST', 'You are have been already create this user!');
+define('USER_ERROR', 'Unable to add the user.');
+define('USER_SAVE_SUCCESS', 'The user has been saved.');
+define('USER_UPDATE', 'User have been update!');
+define('USER_LOGIN_ERROR', 'Invalid username or password, try again');

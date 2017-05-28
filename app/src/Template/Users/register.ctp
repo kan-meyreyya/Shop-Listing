@@ -7,6 +7,7 @@
 ?>
 <div class="col-sm-8 col-lg-8 col-md-8">
     <?php
+        echo $this->Flash->render();
         echo $this->Form->create(isset($user) ? $user : '', array(
             'role' => 'form',
             'class' => 'form-horizontal',

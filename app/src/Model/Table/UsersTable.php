@@ -33,7 +33,6 @@ class UsersTable extends Table
 
         $validator
             ->requirePresence('phone')
-<<<<<<< HEAD
             ->notEmpty('phone', 'Please input phone number!')
             ->add('phone', array(
                 'numeric' => array(
@@ -41,9 +40,6 @@ class UsersTable extends Table
                     'message' => 'Phone number is number only!',
                 )
             ));
-=======
-            ->notEmpty('phone', 'Please input phone number!');
->>>>>>> 5fed43cc633f3e7f8f483769591f73b8f030cf54
 
         $validator
             ->requirePresence('password')
