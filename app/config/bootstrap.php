@@ -233,3 +233,4 @@ define('USER_ERROR', 'Unable to add the user.');
 define('USER_SAVE_SUCCESS', 'The user has been saved.');
 define('USER_UPDATE', 'User have been update!');
 define('USER_LOGIN_ERROR', 'Invalid username or password, try again');
+define('USER_SEND_MAIL_ERROR', 'Please register for new account!');

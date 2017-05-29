@@ -1,0 +1,31 @@
+To: example@gmail.com
+Subject: Reset Password
+From: noreply@localhost
+Date: Mon, 29 May 2017 09:57:51 +0000
+Message-ID: <9040150e40dd43b2a3f7329a52710d3e@localhost>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="aad90bb83e1ba2491445152b1d6d8a88"
+Content-Transfer-Encoding: 8bit
+
+--aad90bb83e1ba2491445152b1d6d8a88
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<p>this is for my teting.</p>
+
+--aad90bb83e1ba2491445152b1d6d8a88
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    <title>Email\html</title>
+</head>
+<body>
+    <p>this is for my teting.</p></body>
+</html>
+
+
+--aad90bb83e1ba2491445152b1d6d8a88--
+

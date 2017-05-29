@@ -4,11 +4,16 @@ namespace App\Controller\Admin;
 
 use App\Controller\AppController;
 use Cake\Network\Exception\NotFoundException;
+use Cake\Mailer\Email;
 
 class UsersController extends AppController
 {
     public function initialize() {
         parent::initialize();
+        $this->Auth->allow(array(
+            'forgotPassword',
+            'resetPassword',
+        ));
         $this->viewBuilder()->layout('back_end');
     }
 
@@ -126,6 +131,38 @@ class UsersController extends AppController
     }
 
     public function forgotPassword()
+    {
+        $this->viewBuilder()->layout('author');
+        $user = $this->Users->newEntity();
+        if ($this->request->is('post')) {
+            $user = $this->Users->patchEntity($user, $this->request->getData(), array(
+                'validate' => 'email',
+            ));
+            if (!$user->errors()) {
+                $result = $this->Users->find()
+                                ->where(array('email' => $this->request->data('email')))
+                                ->first();
+                if ($result) {
+                    $message = 'this is for my teting.';
+                    $message = wordwrap($message, 1000);
+
+                    $email = new Email('default');
+                    $email->template('reset_password')
+                        ->from('noreply@localhost')
+                        ->to($this->request->data('email'))
+                        ->emailFormat('both')
+                        ->subject('Reset Password')
+                        ->viewVars(array('message' => $message))
+                        ->send();
+                } else {
+                    $this->Flash->error(USER_SEND_MAIL_ERROR);
+                }
+            }
+        }
+        $this->set('user', $user);
+    }
+
+    public function resetPassword()
     {
         
     }

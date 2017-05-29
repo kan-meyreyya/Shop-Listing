@@ -1,3 +1,4 @@
+
 <?php
     echo $this->assign('title', 'Administrator');
     echo $this->Flash->render();
@@ -38,7 +39,10 @@
         <div class="row">
             <div class="col-xs-8">
                 <?php
-                    echo $this->Html->link('forgot password', 'admin/users/forgotPassword');
+                    echo $this->Html->link('forgot password', $this->Url->build(array(
+                        'controller' => 'users',
+                        'action' => 'forgot_password',
+                    )));
                 ?>
             </div>
             <div class="col-xs-4">

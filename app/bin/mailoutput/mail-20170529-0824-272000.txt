@@ -1,0 +1,12 @@
+To: kan.meyreyya@gmail.com
+Subject: Reset Password
+From: My Site <me@example.com>
+Date: Mon, 29 May 2017 08:24:03 +0000
+Message-ID: <47c8df68376341468d3e5f1150dabf56@localhost>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+My message
+
+

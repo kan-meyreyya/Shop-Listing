@@ -25084,3 +25084,1447 @@ Stack Trace:
 #15 {main}
 
 
+2017-05-29 07:04:24 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::forgotPassword() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'forgotPassword',
+  'prefix' => 'admin',
+  'plugin' => false,
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-29 07:05:29 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::forgotPassword() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'forgotPassword',
+  'prefix' => 'admin',
+  'plugin' => false,
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-29 07:06:02 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::forgotPassword() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'forgotPassword',
+  'prefix' => 'admin',
+  'plugin' => false,
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-29 07:06:50 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::forgotPassword() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'forgotPassword',
+  'prefix' => 'admin',
+  'plugin' => false,
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-29 07:07:26 Error: [Cake\View\Exception\MissingTemplateException] Template file "Admin\Users\forgot_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin\\Users\\forgot_password.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-05-29 07:08:32 Error: [Cake\View\Exception\MissingTemplateException] Template file "Admin\Users\forgot_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin\\Users\\forgot_password.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-05-29 07:09:32 Error: [Cake\View\Exception\MissingTemplateException] Template file "Admin\Users\forgot_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin\\Users\\forgot_password.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-05-29 07:10:06 Error: [Cake\View\Exception\MissingTemplateException] Template file "Admin\Users\forgot_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin\\Users\\forgot_password.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-05-29 07:10:16 Error: [Cake\View\Exception\MissingTemplateException] Template file "Admin\Users\forgot_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin\\Users\\forgot_password.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-05-29 07:10:35 Error: [Cake\View\Exception\MissingTemplateException] Template file "Admin\Users\forgot_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin\\Users\\forgot_password.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-05-29 07:12:16 Error: [Cake\View\Exception\MissingLayoutException] Layout file "Admin\Layout\auth.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin\\Layout\\auth.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/login?redirect=%2Fadmin%2Fusers%2FforgotPassword
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(625): Cake\View\View->_getLayoutFileName('auth')
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(601): Cake\View\View->renderLayout('', 'auth')
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-05-29 07:57:16 Error: Fatal Error (1): Call to undefined method App\Model\Entity\User::contain() in [E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php, line 144]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-29 07:57:17 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\User::contain() in E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php on line 144
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'E:\\CAKE PROJECT...', 144)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-29 08:00:46 Error: Fatal Error (1): Call to undefined method App\Model\Entity\User::contain() in [E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php, line 144]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-29 08:00:47 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\User::contain() in E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php on line 144
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'E:\\CAKE PROJECT...', 144)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-29 08:01:04 Error: Fatal Error (1): Call to undefined method App\Model\Entity\User::contain() in [E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php, line 144]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-29 08:01:05 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\User::contain() in E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php on line 144
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'E:\\CAKE PROJECT...', 144)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-29 08:02:48 Error: Fatal Error (1): Call to a member function contain() on null in [E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php, line 144]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-29 08:02:49 Error: [Cake\Error\FatalErrorException] Call to a member function contain() on null in E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php on line 144
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'E:\\CAKE PROJECT...', 144)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-29 08:08:22 Error: [BadMethodCallException] Unknown finder method "first"
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Table.php(1174): Cake\ORM\Table->callFinder('first', Object(Cake\ORM\Query), Array)
+#1 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(142): Cake\ORM\Table->find('first')
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-05-29 08:10:21 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Table.php(1432): Cake\ORM\Query->firstOrFail()
+#1 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(142): Cake\ORM\Table->get(Array)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-05-29 08:11:47 Error: Fatal Error (1): Call to undefined function App\Controller\Admin\first() in [E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php, line 144]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-29 08:11:48 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\Admin\first() in E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php on line 144
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'E:\\CAKE PROJECT...', 144)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-29 08:13:57 Error: [InvalidArgumentException] Cannot convert value to string
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php(37): Cake\Database\Type\StringType->toDatabase(Array, Object(Cake\Database\Driver\Mysql))
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php(69): Cake\Database\Statement\StatementDecorator->cast(Array, 'string')
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(107): Cake\Database\Statement\PDOStatement->bindValue('c0', Array, 'string')
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(98): Cake\Database\Statement\StatementDecorator->bindValue('c0', Array, 'string')
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\ValueBinder.php(147): Cake\Database\Log\LoggingStatement->bindValue('c0', Array, 'string')
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Connection.php(312): Cake\Database\ValueBinder->attachTo(Object(Cake\Database\Log\LoggingStatement))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(1011): Cake\Database\Query->execute()
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(276): Cake\ORM\Query->_execute()
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(959): Cake\ORM\Query->_all()
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(404): Cake\ORM\Query->all()
+#11 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(145): Cake\ORM\Query->first()
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#26 {main}
+
+
+2017-05-29 08:14:27 Error: [BadMethodCallException] Unknown finder method "user"
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Table.php(1174): Cake\ORM\Table->callFinder('user', Object(Cake\ORM\Query), Array)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Table.php(2270): Cake\ORM\Table->find('user', Array)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Table.php(2290): Cake\ORM\Table->_dynamicFinder('findUserByEmail', Array)
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(144): Cake\ORM\Table->__call('findUserByEmail', Array)
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(144): App\Model\Table\UsersTable->findUserByEmail(Array)
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 08:14:37 Error: [InvalidArgumentException] Cannot convert value to string
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php(37): Cake\Database\Type\StringType->toDatabase(Array, Object(Cake\Database\Driver\Mysql))
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php(69): Cake\Database\Statement\StatementDecorator->cast(Array, 'string')
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(107): Cake\Database\Statement\PDOStatement->bindValue('c0', Array, 'string')
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(98): Cake\Database\Statement\StatementDecorator->bindValue('c0', Array, 'string')
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\ValueBinder.php(147): Cake\Database\Log\LoggingStatement->bindValue('c0', Array, 'string')
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Connection.php(312): Cake\Database\ValueBinder->attachTo(Object(Cake\Database\Log\LoggingStatement))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(1011): Cake\Database\Query->execute()
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(276): Cake\ORM\Query->_execute()
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(959): Cake\ORM\Query->_all()
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(404): Cake\ORM\Query->all()
+#11 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(145): Cake\ORM\Query->first()
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#26 {main}
+
+
+2017-05-29 08:20:35 Error: [InvalidArgumentException] Users is not associated with Users
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(321): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\UsersTable), 'Users', Array, Array)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(450): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\UsersTable))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(421): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\UsersTable))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(1038): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\UsersTable), true)
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(989): Cake\ORM\Query->_transformQuery()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(136): Cake\ORM\Query->sql()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Connection.php(258): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Connection.php(311): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(1011): Cake\Database\Query->execute()
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(276): Cake\ORM\Query->_execute()
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(959): Cake\ORM\Query->_all()
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(404): Cake\ORM\Query->all()
+#13 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(144): Cake\ORM\Query->first()
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#28 {main}
+
+
+2017-05-29 08:21:31 Error: [InvalidArgumentException] Unknown email configuration "Default".
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(1991): Cake\Mailer\Email->_applyConfig('Default')
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(352): Cake\Mailer\Email->setProfile('Default')
+#2 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(146): Cake\Mailer\Email->__construct('Default')
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-05-29 08:21:59 Error: Fatal Error (1): Call to a member function subject() on array in [E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php, line 149]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-29 08:22:00 Error: [Cake\Error\FatalErrorException] Call to a member function subject() on array in E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php on line 149
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'E:\\CAKE PROJECT...', 149)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-29 08:39:38 Error: [Cake\View\Exception\MissingTemplateException] Template file "Email\text\reset_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Email\\text\\reset_password.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2625): Cake\View\View->render()
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2491): Cake\Mailer\Email->_renderTemplates('')
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2043): Cake\Mailer\Email->_render(Array)
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(155): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 08:39:38 Warning: Warning (512): Unable to emit headers. Headers sent in file=E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-29 08:39:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-29 08:39:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-29 08:39:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-29 08:40:31 Error: [Cake\View\Exception\MissingTemplateException] Template file "Email\text\reset_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Email\\text\\reset_password.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2625): Cake\View\View->render()
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2491): Cake\Mailer\Email->_renderTemplates('')
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2043): Cake\Mailer\Email->_render(Array)
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(155): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 08:41:37 Error: [Cake\View\Exception\MissingTemplateException] Template file "Email\html\reset_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Email\\html\\reset_password.ctp',
+)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2625): Cake\View\View->render()
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2491): Cake\Mailer\Email->_renderTemplates('')
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2043): Cake\Mailer\Email->_render(Array)
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(155): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 08:59:37 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:00:26 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:01:14 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the connection or trying to connect to non TLS SMTP server using TLS.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:01:50 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:04:29 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:09:23 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:09:28 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:09:54 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:10:01 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:12:43 Error: [Cake\Network\Exception\SocketException] SMTP Error: 530 5.5.1  https://support.google.com/mail/?p=WantAuthError t198sm16110170pgc.33 - gsmtp
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(365): Cake\Mailer\Transport\SmtpTransport->_smtpSend('MAIL FROM:<nore...')
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(168): Cake\Mailer\Transport\SmtpTransport->_sendRcpt(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 09:52:17 Error: [Cake\Network\Exception\SocketException] SMTP Error: 530 5.5.1  https://support.google.com/mail/?p=WantAuthError k79sm15898874pfj.6 - gsmtp
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(365): Cake\Mailer\Transport\SmtpTransport->_smtpSend('MAIL FROM:<nore...')
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(168): Cake\Mailer\Transport\SmtpTransport->_sendRcpt(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 09:54:46 Error: [Cake\Network\Exception\SocketException] SMTP Error: 530 5.5.1  https://support.google.com/mail/?p=WantAuthError o10sm14597132pge.67 - gsmtp
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(365): Cake\Mailer\Transport\SmtpTransport->_smtpSend('MAIL FROM:<nore...')
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(168): Cake\Mailer\Transport\SmtpTransport->_sendRcpt(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 09:58:53 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 09:59:14 Error: [Cake\Network\Exception\SocketException] SMTP Error: 530 5.5.1  https://support.google.com/mail/?p=WantAuthError x12sm15364924pgc.47 - gsmtp
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(365): Cake\Mailer\Transport\SmtpTransport->_smtpSend('MAIL FROM:<nore...')
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(168): Cake\Mailer\Transport\SmtpTransport->_sendRcpt(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 09:59:32 Error: [Cake\Network\Exception\SocketException] SMTP Error: 530 5.5.1  https://support.google.com/mail/?p=WantAuthError k86sm15794490pfk.125 - gsmtp
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(365): Cake\Mailer\Transport\SmtpTransport->_smtpSend('MAIL FROM:<nore...')
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(168): Cake\Mailer\Transport\SmtpTransport->_sendRcpt(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 09:59:50 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 10:00:59 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 10:01:13 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 10:01:42 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 10:02:24 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 10:04:45 Error: [Cake\Network\Exception\SocketException] stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): unable to connect to ssl://smtp.gmail.com:587 (Unknown error)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(207): Cake\Network\Socket->connect()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 10:07:36 Error: [Cake\Network\Exception\SocketException] stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): unable to connect to ssl://smtp.gmail.com:587 (Unknown error)
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(207): Cake\Network\Socket->connect()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 10:08:49 Error: [Cake\Network\Exception\SocketException] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(207): Cake\Network\Socket->connect()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-05-29 10:08:51 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the connection or trying to connect to non TLS SMTP server using TLS.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 10:10:56 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the connection or trying to connect to non TLS SMTP server using TLS.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 10:12:42 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the connection or trying to connect to non TLS SMTP server using TLS.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 10:12:53 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the connection or trying to connect to non TLS SMTP server using TLS.
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-29 10:14:33 Error: [Cake\Network\Exception\SocketException] SMTP Error: 530 5.5.1  https://support.google.com/mail/?p=WantAuthError a12sm14807560pgn.62 - gsmtp
+Request URL: /admin/users/forgot-password
+Referer URL: http://localhost:8765/admin/users/forgot-password
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(365): Cake\Mailer\Transport\SmtpTransport->_smtpSend('MAIL FROM:<nore...')
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(168): Cake\Mailer\Transport\SmtpTransport->_sendRcpt(Object(Cake\Mailer\Email))
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Mailer\Email.php(2051): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(156): Cake\Mailer\Email->send()
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->forgotPassword()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+

@@ -22,7 +22,8 @@ class UsersTable extends Table
             ->setDependent(true);
     }
 
-    public function validationCreate (Validator $validator) {
+    public function validationCreate(Validator $validator)
+    {
         $validator
             ->requirePresence('username')
             ->notEmpty('username', 'Please input username!');
@@ -73,6 +74,14 @@ class UsersTable extends Table
                 )
             ));
 
+        return $validator;
+    }
+
+    public function validationEmail(Validator $validator)
+    {
+        $validator
+            ->requirePresence('email')
+            ->notEmpty('email', 'please enter your email address!');
         return $validator;
     }
 }
