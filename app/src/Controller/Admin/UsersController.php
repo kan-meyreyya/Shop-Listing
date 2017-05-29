@@ -5,6 +5,9 @@ namespace App\Controller\Admin;
 use App\Controller\AppController;
 use Cake\Network\Exception\NotFoundException;
 use Cake\Mailer\Email;
+use Cake\Utility\Security;
+use Cake\Utility\Text;
+use Cake\Routing\Router;
 
 class UsersController extends AppController
 {
@@ -14,6 +17,7 @@ class UsersController extends AppController
             'forgotPassword',
             'resetPassword',
         ));
+        $this->loadComponent('Cookie', array('expires' => '1 day'));
         $this->viewBuilder()->layout('back_end');
     }
 
@@ -140,13 +144,20 @@ class UsersController extends AppController
             ));
             if (!$user->errors()) {
                 $result = $this->Users->find()
-                                ->where(array('email' => $this->request->data('email')))
-                                ->first();
+                            ->where(array(
+                                'email' => $this->request->data('email'),
+                                'is_deleted' => 0,
+                            ))->first();
                 if ($result) {
-                    $message = 'this is for my teting.';
+                    $key = Security::hash(Text::uuid(), 'sha256', true);
+                    $hash = sha1($user->email . rand(0, 100));
+                    $url = Router::url(array('controller'=>'users', 'action'=>'resetPassword'), true ).'?params='.$key.'#'.$hash;
+                    $this->Cookie->write('reset_password', $key . '#' . $hash, true, '60');
+
+                    $message = 'Please click on link below for reset your password<br>' . $url;
                     $message = wordwrap($message, 1000);
 
-                    $email = new Email('default');
+                    $email = new Email();
                     $email->template('reset_password')
                         ->from('noreply@localhost')
                         ->to($this->request->data('email'))
@@ -154,6 +165,8 @@ class UsersController extends AppController
                         ->subject('Reset Password')
                         ->viewVars(array('message' => $message))
                         ->send();
+
+                    $this->Flash->success('Please check in your email!');
                 } else {
                     $this->Flash->error(USER_SEND_MAIL_ERROR);
                 }
