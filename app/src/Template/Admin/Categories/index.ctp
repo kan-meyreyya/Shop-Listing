@@ -1,4 +1,15 @@
 
+<style type="text/css">
+    .box {
+        margin-bottom: 0px;
+        border-top: 0px;
+        box-shadow: none;
+    }
+    .overlay {
+        display: none;
+    }
+</style>
+
 <section class="content-header">
     <h1>Category List</h1>
     <ol class="breadcrumb">
@@ -22,15 +33,14 @@
                 <div class="box-header">
                     <div class="box-title">
                         <?php
-                            echo $this->Html->link(
-                                '<i class="fa fa-users"></i> Add Category', array(
-                                    'controller' => 'categories',
-                                    'action' => 'add',
-                                ), array(
-                                    'class' => 'btn btn-default',
-                                    'escape' => false,
-                                )
-                                );
+                            echo $this->Form->input(
+                                '<i class="fa fa-plus" aria-hidden="true"></i> Add Category', array(
+                                'class' => 'btn btn-default btn_modal',
+                                'escape' => false,
+                                'type' => 'button',
+                                'label' => false,
+                                'data-target' => 'new',
+                            ));
                         ?>
                     </div>
                     <div class="box-tools">
@@ -111,27 +121,75 @@
         </div>
     </div>
 </section>
-<div class="modal fade" id="modal_delete" tabindex="-1" role="dialog">
+<div class="modal fade" id="modal_add" tabindex="-1" role="dialog" data-backdrop='static'>
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Confirm Message</h4>
+                <h4 class="modal-title"></h4>
             </div>
             <div class="modal-body box">
-                <p>Do you want to delete this user?</p>
-                <?php echo $this->Form->hidden('id', array('id' => 'id')); ?>
+                <?php
+                    echo $this->Form->create('category', array(
+                        'role' => 'form',
+                        'id' => 'form_category',
+                        'autocomplet' => 'off',
+                    ));
+                ?>
+                <div class="form-group">
+                    <label>Category Name</label>
+                    <?php
+                        echo $this->Form->input('name', array(
+                            'label' => false,
+                            'class' => 'form-control',
+                            'placeholder' => 'Please Enter Category Name'
+                        ));
+                    ?>
+                </div>
+                <div class="form-group">
+                    <label>Parent Category</label>
+                    <?php
+                        echo $this->Form->input('parent_id', array(
+                            'label' => false,
+                            'class' => 'form-control',
+                            'type' => 'select',
+                            'options' => array(),
+                        ));
+                    ?>
+                </div>
+                <?php echo $this->Form->end(); ?>
                 <div class="overlay"><i class="fa fa-refresh fa-spin"></i></div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 <?php
-                    echo $this->Form->button('Yes', array(
+                    echo $this->Form->button('Save', array(
                         'class' => 'btn btn-primary',
-                        'id' => 'btn_yes',
+                        'id' => 'btn_save',
                     ));
                 ?>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $(function(e) {
+        $('body').on('click', '.btn_modal', function(e) {
+            var title = '';
+            var modal = $('body').find('#modal_add');
+
+            if ($(this).data('target') === 'new') {
+                title = 'Create New Category';
+            } else {
+                title = 'Edit Category';
+            }
+            $(modal).find('.modal-title').append(title);
+            $('#modal_add').modal('show');
+        });
+
+        $('#modal_add').on('hidden.bs.modal', function (e) {
+            $(this).find('.modal-title').html('');
+        });
+    });
+</script>
