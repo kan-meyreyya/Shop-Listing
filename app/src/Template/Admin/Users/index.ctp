@@ -15,7 +15,11 @@
     <ol class="breadcrumb">
         <li>
             <?php
-            echo $this->Html->link('<i class="fa fa-dashboard"></i> Home', 'admin/homes', array(
+            echo $this->Html->link(
+                '<i class="fa fa-dashboard"></i> Home', array(
+                    'controller' => 'homes',
+                    'action' => 'index',
+                ), array(
                 'escape' => false,
             ));
             ?>
@@ -30,10 +34,15 @@
                 <div class="box-header">
                     <div class="box-title">
                         <?php
-                            echo $this->Html->link('<i class="fa fa-users"></i> Add User', 'admin/users/add', array(
-                                'class' => 'btn btn-default',
-                                'escape' => false,
-                            ));
+                            echo $this->Html->link(
+                                '<i class="fa fa-users"></i> Add User', array(
+                                    'controller' => 'users',
+                                    'action' => 'add',
+                                ), array(
+                                    'class' => 'btn btn-default',
+                                    'escape' => false,
+                                )
+                                );
                         ?>
                     </div>
                     <div class="box-tools">

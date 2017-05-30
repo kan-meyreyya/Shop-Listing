@@ -10,9 +10,14 @@
     <ol class="breadcrumb">
         <li>
             <?php
-                echo $this->Html->link('<i class="fa fa-dashboard"></i> Home', 'admin/homes', array(
-                    'escape' => false,
-                ));
+                echo $this->Html->link(
+                    '<i class="fa fa-dashboard"></i> Home', array(
+                        'controller' => 'homes',
+                        'action' => 'index',
+                    ), array(
+                        'escape' => false,
+                    )
+                );
             ?>
         </li>
         <li>User</li>

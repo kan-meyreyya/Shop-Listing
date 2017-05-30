@@ -35,51 +35,43 @@
     <body class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper">
             <header class="main-header">
-                <a href="index2.html" class="logo">
-                    <span class="logo-mini"><b>Admin</b></span>
-                    <span class="logo-lg"><b>Administrator</b></span>
-                </a>
+                <?php
+                    echo $this->Html->link(
+                        '<span class="logo-mini"><b>Admin</b></span><span class="logo-lg"><b>Administrator</b></span>',
+                        'javascript:void(0);', array('class' => 'logo', 'escape' => false,)
+                    );
+                ?>
                 <nav class="navbar navbar-static-top">
-                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-                        <span class="sr-only">Toggle navigation</span>
-                    </a>
+                    <?php
+                        echo $this->Html->link(
+                            '<span class="sr-only">Toggle navigation</span>',
+                            'javascript:void(0);', array(
+                                'class' => 'sidebar-toggle',
+                                'data-toggle' => 'offcanvas',
+                                'role' => 'button',
+                                'escape' => false,
+                            )
+                        );
+                    ?>
                     <div class="navbar-custom-menu">
                         <ul class="nav navbar-nav">
                             <li class="dropdown user user-menu">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <span class="hidden-xs"><?php echo $this->request->session()->read('Auth.User.username'); ?></span>
+                                <a href="javascript:void(0);">
+                                    <?php echo $this->request->session()->read('Auth.User.username'); ?>
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li class="user-header">
-                                        <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-                                        <p>Alexander Pierce - Web Developer<small>Member since Nov. 2012</small></p>
-                                    </li>
-                                    <li class="user-body">
-                                        <div class="row">
-                                            <div class="col-xs-4 text-center">
-                                                <a href="#">Followers</a>
-                                            </div>
-                                            <div class="col-xs-4 text-center">
-                                                <a href="#">Sales</a>
-                                            </div>
-                                            <div class="col-xs-4 text-center">
-                                                <a href="#">Friends</a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="user-footer">
-                                        <div class="pull-left">
-                                            <a href="#" class="btn btn-default btn-flat">Profile</a>
-                                        </div>
-                                        <div class="pull-right">
-                                            <?php
-                                                echo $this->Html->link('Sign out', 'admin/users/logout', array(
-                                                    'class' => 'btn btn-default btn-flat',
-                                                ));
-                                            ?>
-                                        </div>
-                                    </li>
-                                </ul>
+                            </li>
+                            <li>
+                                <?php
+                                    echo $this->Html->link(
+                                        '<i class="fa fa-sign-out" aria-hidden="true"></i> Logout',
+                                        array(
+                                            'controller' => 'users',
+                                            'action' => 'logout',
+                                        ), array(
+                                            'escape' => false,
+                                        )
+                                    );
+                                ?>
                             </li>
                         </ul>
                     </div>

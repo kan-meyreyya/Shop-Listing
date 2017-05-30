@@ -151,16 +151,17 @@ class UsersController extends AppController
                 if ($result) {
                     $key = Security::hash(Text::uuid(), 'sha256', true);
                     $hash = sha1($user->email . rand(0, 100));
-                    $url = Router::url(array('controller'=>'users', 'action'=>'resetPassword'), true ).'?params='.$key.'#'.$hash;
-                    $this->Cookie->write('reset_password', $key . '#' . $hash, true, '60');
+                    $url = Router::url(array('controller'=>'users', 'action'=>'resetPassword'), true ).'?_token_id=' . $result->id . '&params=' . $key  . $hash;
+                    $this->Cookie->write('reset_password', $key . $hash, true, '1 day');
 
                     $message = 'Please click on link below for reset your password<br>' . $url;
                     $message = wordwrap($message, 1000);
 
                     $email = new Email();
                     $email->template('reset_password')
-                        ->from('noreply@localhost')
                         ->to($this->request->data('email'))
+                        ->from('noreply@gmail.com')
+                        ->replyTo('noreply@gmail.com')
                         ->emailFormat('both')
                         ->subject('Reset Password')
                         ->viewVars(array('message' => $message))
@@ -177,6 +178,27 @@ class UsersController extends AppController
 
     public function resetPassword()
     {
-        
+        if (!$this->request->query('_token_id') && !$this->request->query('params')) {
+           throw new NotFoundException();
+        }
+        $this->viewBuilder()->layout('author');
+
+        if ($this->Cookie->read('reset_password') === $this->request->query('params')) {
+            $user = $this->Users->newEntity();
+            $user->id = $this->request->query('_token_id');
+            if ($this->request->is('post')) {
+                $user = $this->Users->patchEntity($user, $this->request->getData(), array(
+                    'validate' => 'reset',
+                ));
+
+                if ($this->Users->save($user)) {
+                    $this->Flash->success('Your password have been updated!');
+                    return $this->redirect(array('action' => 'login'));
+                }
+            }
+            $this->set('user', $user);
+        } else {
+            $this->Flash->error('Your session is expire, Please enter email again!');
+        }
     }
 }

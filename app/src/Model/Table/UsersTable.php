@@ -9,16 +9,17 @@ class UsersTable extends Table
 {
     public function initialize(array $config)
     {
+        parent::initialize($config);
         $this->table('users');
         $this->primaryKey('id');
         $this->addBehavior('Timestamp');
 
-        $this->hasOne('Products')
-            ->setName('Products')
+        $this->hasMany('Categories')
+            ->setForeignKey('user_id')
             ->setDependent(true);
 
-        $this->hasOne('Categories')
-            ->setName('Categories')
+        $this->hasMany('Products')
+            ->setForeignKey('user_id')
             ->setDependent(true);
     }
 
@@ -82,6 +83,44 @@ class UsersTable extends Table
         $validator
             ->requirePresence('email')
             ->notEmpty('email', 'please enter your email address!');
+
+        return $validator;
+    }
+
+    public function validationReset(Validator $validator)
+    {
+        $validator
+            ->requirePresence('password')
+            ->notEmpty('password', 'Please input password!')
+            ->add('password', array(
+                'match' => array(
+                    'rule' => array('compareWith', 'confirm_pwd'),
+                    'message' => 'Your password is not match with comfirm field!',
+                )
+            ))
+            ->add('password', array(
+                'length' => array(
+                    'rule' => array('minLength', 6),
+                    'message' => 'Your password at lease 6 characters!',
+                )
+            ));
+
+        $validator
+            ->requirePresence('confirm_pwd')
+            ->notEmpty('confirm_pwd', 'Please input your password agian!')
+            ->add('confirm_pwd', array(
+                'match' => array(
+                    'rule' => array('compareWith', 'password'),
+                    'message' => 'Your password is not match with password field!',
+                )
+            ))
+            ->add('confirm_pwd', array(
+                'length' => array(
+                    'rule' => array('minLength', 6),
+                    'message' => 'Your password at lease 6 characters!',
+                )
+            ));
+
         return $validator;
     }
 }

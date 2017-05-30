@@ -6,10 +6,10 @@ use Cake\ORM\Entity;
 
 class User extends Entity
 {
-    protected $_accessible = [
+    protected $_accessible = array(
         '*' => true,
-        'id' => false
-    ];
+        'id' => false,
+    );
 
     protected function _setPassword($password)
     {
