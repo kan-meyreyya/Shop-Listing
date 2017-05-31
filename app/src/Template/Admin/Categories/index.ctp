@@ -71,10 +71,8 @@
                     <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th><?php echo $this->Paginator->sort('username'); ?></th>
-                                <th><?php echo $this->Paginator->sort('email'); ?></th>
-                                <th><?php echo $this->Paginator->sort('phone'); ?></th>
-                                <th><?php echo $this->Paginator->sort('role'); ?></th>
+                                <th><?php echo $this->Paginator->sort('name'); ?></th>
+                                <th><?php echo $this->Paginator->sort('parent_id'); ?></th>
                                 <th><?php echo $this->Paginator->sort('created'); ?></th>
                                 <th>Action</th>
                             </tr>
@@ -82,10 +80,8 @@
                         <tbody>
                             <?php if ($category) : foreach ($category as $item) : ;?>
                                 <tr>
-                                    <td><?php echo h($item->username) ?></td>
-                                    <td><?php echo h($item->email); ?></td>
-                                    <td><?php echo h($item->phone); ?></td>
-                                    <td><?php echo h($item->role); ?></td>
+                                    <td><?php echo h($item->name) ?></td>
+                                    <td><?php echo h($item->parent_id); ?></td>
                                     <td><?php echo date('d-m-Y', strtotime($item['created'])); ?></td>
                                     <td>
                                         <?php

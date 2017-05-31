@@ -28389,3 +28389,167 @@ Stack Trace:
 #25 {main}
 
 
+2017-05-31 00:45:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'
+Request URL: /admin/categories
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(1011): Cake\Database\Query->execute()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(276): Cake\ORM\Query->_execute()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(959): Cake\ORM\Query->_all()
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(190): Cake\ORM\Query->all()
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(717): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\CategoriesTable), Array)
+#10 E:\CAKE PROJECT\shop\app\src\Controller\Admin\CategoriesController.php(41): Cake\Controller\Controller->paginate(Object(App\Model\Table\CategoriesTable))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\CategoriesController->index()
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\CategoriesController))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#25 {main}
+
+
+2017-05-31 00:46:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'
+Request URL: /admin/categories
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(1011): Cake\Database\Query->execute()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(276): Cake\ORM\Query->_execute()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(959): Cake\ORM\Query->_all()
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(190): Cake\ORM\Query->all()
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(717): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\CategoriesTable), Array)
+#10 E:\CAKE PROJECT\shop\app\src\Controller\Admin\CategoriesController.php(41): Cake\Controller\Controller->paginate(Object(App\Model\Table\CategoriesTable))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\CategoriesController->index()
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\CategoriesController))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#25 {main}
+
+
+2017-05-31 00:48:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'
+Request URL: /admin/categories
+Referer URL: http://localhost:8765/admin/users
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(1011): Cake\Database\Query->execute()
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(276): Cake\ORM\Query->_execute()
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Query.php(959): Cake\ORM\Query->_all()
+#8 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(190): Cake\ORM\Query->all()
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(717): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\CategoriesTable), Array)
+#10 E:\CAKE PROJECT\shop\app\src\Controller\Admin\CategoriesController.php(41): Cake\Controller\Controller->paginate(Object(App\Model\Table\CategoriesTable))
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\CategoriesController->index()
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\CategoriesController))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#25 {main}
+
+
+2017-05-31 01:32:04 Error: Fatal Error (1): Call to undefined function App\Controller\Admin\contain() in [E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php, line 52]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/categories?sort=parent_id&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-31 01:32:05 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\Admin\contain() in E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php on line 52
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/categories?sort=parent_id&direction=asc
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'E:\\CAKE PROJECT...', 52)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-31 01:34:32 Error: Fatal Error (1): Call to undefined function App\Controller\Admin\contain() in [E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php, line 52]
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/categories?sort=parent_id&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-31 01:34:33 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\Admin\contain() in E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php on line 52
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/categories?sort=parent_id&direction=asc
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'E:\\CAKE PROJECT...', 52)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-31 01:42:58 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop_listing.user' doesn't exist
+Request URL: /admin/users
+Referer URL: http://localhost:8765/admin/categories?sort=parent_id&direction=asc
+Stack Trace:
+#0 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'user', Array, Object(Cake\Database\Schema\TableSchema))
+#1 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('user', Array)
+#2 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Table.php(531): Cake\Database\Schema\CachedCollection->describe('user')
+#3 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\ORM\Table.php(626): Cake\ORM\Table->getSchema()
+#4 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(403): Cake\ORM\Table->hasField('username')
+#5 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(367): Cake\Controller\Component\PaginatorComponent->_prefix(Object(App\Model\Table\UsersTable), Array, false)
+#6 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(176): Cake\Controller\Component\PaginatorComponent->validateSort(Object(App\Model\Table\UsersTable), Array)
+#7 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(717): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#8 E:\CAKE PROJECT\shop\app\src\Controller\Admin\UsersController.php(51): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#9 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\Admin\UsersController->index()
+#10 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#11 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#12 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 E:\CAKE PROJECT\shop\app\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 E:\CAKE PROJECT\shop\app\webroot\index.php(37): Cake\Http\Server->run()
+#23 {main}
+
+

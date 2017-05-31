@@ -49,6 +49,8 @@ class UsersController extends AppController
                 )
         );
         $this->set('user', $this->paginate($this->Users));
+        $aa = $this->Users->find('all');
+        pr($aa);
     }
 
     public function add()

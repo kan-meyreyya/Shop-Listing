@@ -33,10 +33,10 @@ class CategoriesController extends AppController
 
         $this->paginate = array(
             'conditions' => $options,
-                'limit' => 10,
-                'order' => array(
-                    'name' => 'asc'
-                )
+            'limit' => 10,
+            'order' => array(
+                'name' => 'asc'
+            )
         );
         $this->set('category', $this->paginate($this->Categories));
     }
