@@ -11,7 +11,7 @@ class CategoriesTable extends Table
         parent::initialize($config);
         $this->table('categories');
         $this->primaryKey('id');
-        $this->addBehavior('Timestamp');
+        $this->addBehavior('Tree');
 
         $this->belongsTo('Users')
             ->setForeignKey('user_id')
