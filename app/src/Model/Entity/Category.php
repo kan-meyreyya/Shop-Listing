@@ -19,9 +19,4 @@ class Category extends Entity
     {
         return $product_id;
     }
-
-    protected function _setIsDeleted($is_deleted)
-    {
-        return $is_deleted;
-    }
 }
