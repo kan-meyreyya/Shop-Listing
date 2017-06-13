@@ -48,4 +48,18 @@ class ProductsTable extends Table
 
         return $validator;
     }
+
+    public function renameFile($name)
+    {
+        $exp = array();
+        $exp = explode('.', $name);
+        $file_name = date('YmdHis') . '.' .$exp[1];
+        
+        return $file_name;
+    }
+
+    public function uploadFile($file_tmp, $path, $name)
+    {
+        move_uploaded_file($file_tmp, WWW_ROOT . 'img/uploads/' . $path . '/' . $name);
+    }
 }

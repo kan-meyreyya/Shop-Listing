@@ -11,6 +11,7 @@
                 'bootstrap.min.css',
                 '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css',
                 '//cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css',
+                '//cdnjs.cloudflare.com/ajax/libs/dropzone/5.0.1/min/dropzone.min.css',
                 'admin.min.css',
                 'skins/_all-skins.min.css',
                 'minimal/minimal.css',
@@ -21,6 +22,7 @@
         <?php
             echo $this->Html->script(array(
                 '//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js',
+                '//cdnjs.cloudflare.com/ajax/libs/dropzone/5.0.1/min/dropzone.min.js',
                 'bootstrap.min.js',
                 'icheck.min.js',
                 'app.js',

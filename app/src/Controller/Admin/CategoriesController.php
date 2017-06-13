@@ -164,28 +164,45 @@ class CategoriesController extends AppController
 
     public function addSubCategory()
     {
-        $id = $this->request->query('parent_id');
         if ($this->request->is('ajax')) {
-            $category = $this->Categories->newEntity();
-            $category->parent_id = $this->request->data('parent_id');
-            $category->user_id = $this->Auth->user('id');
-            $data_id = array();
-            $data_name = array();
+            $save_data = array();
+            $update_data = array();
+            $parent_id = $this->request->data('parent_id');
 
-            foreach ($this->request->getData() as $key => $value) {
-                $data_id[] = $value['id'];
-                $data_name[] = $value['name'];
+            foreach ($this->request->data['data'] as $value) {
+                if ($value['id'] === '') {
+                    $save_data[] = array(
+                        'name' => $value['name'],
+                        'parent_id' => $parent_id,
+                        'user_id' => $this->Auth->user('id'),
+                        'created' => date('Y-m-d H:i:s'),
+                        'modified' => date('Y-m-d H:i:s'),
+                    );
+                } else {
+                    $update_data[] = array(
+                        'id' => $value['id'],
+                        'name' => $value['name'],
+                        'parent_id' => $parent_id,
+                    );
+                }
             }
-            $category->name = $data_name;
-            $category->id = $data_id;
-
-            if ($this->Categories->save($category)) {
-                echo json_encode(array(
-                    'status' => 'success',
-                    'message' => 'success'
-                ));
+            if ($save_data) {
+                $data1 = $this->Categories->newEntities($save_data);
+                foreach ($data1 as $data) {
+                    $this->Categories->save($data);
+                }
+            }
+            if ($update_data) {
+                foreach ($update_data as $data) {
+                    $data2 = $this->Categories->get($data['id']);
+                    $data2->parent_id = $data['parent_id'];
+                    $data2->name = $data['name'];
+                    $data2->modified = date('Y-m-d H:i:s');
+                    $this->Categories->save($data2);
+                }
             }
         } else {
+            $id = $this->request->query('parent_id');
             $node = $this->Categories->find('all')
                             ->where(array(
                                 'Categories.parent_id' => $id
